@@ -9,4 +9,7 @@
   --color-white: #fff;
   --color-gray-100: #e6e6e6;
   --color-gray-200: #1a1a1a;
+
+  /* Paddings */
+  --padding-md: 24px;
 }
