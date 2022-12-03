@@ -6,6 +6,7 @@
   --font-size-base: 24px;
 
   /* Colors */
-  --neutral-1: #e6e6e6;
-  --primary: #1a1a1a;
+  --color-white: #fff;
+  --color-gray-100: #e6e6e6;
+  --color-gray-200: #1a1a1a;
 }
