@@ -1,0 +1,11 @@
+:root {
+  /* fonts */
+  --font-open-sans: "Open Sans";
+
+  /* font sizes */
+  --font-size-base: 24px;
+
+  /* Colors */
+  --neutral-1: #e6e6e6;
+  --primary: #1a1a1a;
+}
