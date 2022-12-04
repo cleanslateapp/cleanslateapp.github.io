@@ -3,13 +3,26 @@
   --font-open-sans: "Open Sans";
 
   /* font sizes */
-  --font-size-base: 24px;
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-lg: 16px;
+  --font-size-xl: 24px;
 
   /* Colors */
-  --color-white: #fff;
-  --color-gray-100: #e6e6e6;
-  --color-gray-200: #1a1a1a;
+  --white: #fff;
+  --secondary: #f2f2f2;
+  --neutral-1: #e6e6e6;
+  --primary: #1a1a1a;
+
+  /* Gaps */
+  --gap-sm: 16px;
+  --gap-md: 24px;
 
   /* Paddings */
-  --padding-md: 24px;
+  --padding-sm: 8px;
+  --padding-md: 16px;
+  --padding-lg: 24px;
+
+  /* border radiuses */
+  --br-md: 12px;
 }
