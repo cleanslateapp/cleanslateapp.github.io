@@ -14,7 +14,7 @@ body {
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  gap: 32px;
+  gap: 40px;
 }
 .icon,
 .placeholder-icon {
@@ -79,13 +79,14 @@ body {
   align-items: center;
 }
 .footer-div {
-  top: 1161px;
-  left: 0;
+  bottom: 0;
+  left: calc(50% - 214px);
   background-color: var(--secondary);
+  width: 428px;
   flex-direction: column;
   padding: var(--padding-md) 62px;
   box-sizing: border-box;
-  justify-content: flex-start;
+  justify-content: flex-end;
   gap: var(--gap-md);
 }
 .true-to-its-name-we-use-simpl {
