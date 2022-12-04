@@ -13,7 +13,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 32px;
 }
 .icon,
@@ -72,25 +72,21 @@ body {
   justify-content: center;
   gap: 24px;
 }
-.footer,
+.footer-div,
 .true-to-its-name-we-use-simpl {
   position: absolute;
   display: flex;
   align-items: center;
 }
-.footer {
+.footer-div {
   top: 1161px;
   left: 0;
   background-color: var(--secondary);
   flex-direction: column;
-  padding: var(--padding-md) 32px;
+  padding: var(--padding-md) 62px;
   box-sizing: border-box;
   justify-content: flex-start;
   gap: var(--gap-md);
-  text-align: left;
-  font-size: var(--font-size-sm);
-  color: var(--primary);
-  font-family: var(--font-open-sans);
 }
 .true-to-its-name-we-use-simpl {
   margin: 0;
@@ -151,7 +147,7 @@ body {
 .mobile-icon {
   position: absolute;
   top: 279px;
-  left: calc(50% - 147px);
+  left: calc(50% - 148px);
   width: 295px;
   height: 509px;
   object-fit: cover;
@@ -307,7 +303,7 @@ body {
   position: relative;
   background-color: var(--white);
   width: 100%;
-  height: 1249px;
+  height: 1252px;
   overflow: hidden;
   text-align: left;
   font-size: var(--font-size-base);
